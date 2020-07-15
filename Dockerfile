@@ -1,4 +1,4 @@
-FROM ubuntu:latest 
+FROM continuumio/miniconda3 
 LABEL author="isabelsilverman" description="Docker image containing all requirements for the fitness effect pipeline"
 
 COPY environment.yml /
