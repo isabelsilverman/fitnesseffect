@@ -3,10 +3,9 @@ channels:
   - conda-forge
   - bioconda
   - defaults
-  - pypi
 dependencies:
   - python=3.7.3
-  - R=3.6.1
+  - r-base=4.0.2
   - pandas=0.24.2
   - numpy=1.18.5
   - matplotlib=3.0.3 
