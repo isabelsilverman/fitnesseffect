@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3 
+FROM nfcore/base:1.7
 LABEL author="isabelsilverman" description="Docker image containing all requirements for the fitness effect pipeline"
 
 COPY calcFreq.py /
