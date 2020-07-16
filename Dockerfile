@@ -1,4 +1,4 @@
-FROM nfcore/base:1.7
+FROM nfcore/base:latest
 LABEL author="isabelsilverman" description="Docker image containing all requirements for the fitness effect pipeline"
 
 COPY calcFreq.py /
